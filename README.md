@@ -23,14 +23,38 @@ Link: https://www.youtube.com/watch?v=x_lvdLil0Fk
 Running this project on your computer demo : https://youtu.be/7ZJ0uH-1T_g
 
 # Features of COVID Encyclopedia
+- Display of confirmed, recovered and deceased patients across all states of India
+- Choropleth map visualization of the impact of COVID across India which gives an idea of the COVID hotspots of India
+- Display of risk (both a quantitative estimate and qualitative) of COVID for touring across India (district-wise).
+- Forecasting the risk for touring in the near future using Holt-Winters exponential smoothing (India district-wise).
+- Display of the nearest vaccination centers using your location on the selected date
+- Displays various details like Hospital name, working hours, address, type of vaccine, age limit, availability etc
 
 # Concepts used in COVID Encyclopedia
 
 # How the app looks like
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/main/samples/Sample1.png)
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/main/samples/Sample2.png)
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/main/samples/Sample3.png)
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/main/samples/Sample4.png)
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/main/samples/Sample5.png)
 
 # Demo
+Link: https://youtu.be/ZysWGw3pnLQ
 
 # Future Ideas
+- Bringing in detection of COVID positive patients nearby using Bluetooth
+- Social distancing warning by detecting distance
+- Symptoms warning, collection and detection of COVID of user and suggesting precautions and medication
+- Display lockdown rules, mask mandates and other precausion in the location of the user
 
 # Acknowledgements
+Some ideas have been taken from GeeksforGeeks who have excellent videos on COVID19 Tracking and vaccine center finding
+
+Covid-19 Tracker : https://www.youtube.com/watch?v=opCW91zYJcI
+
+Covid-19 Vaccine Availability app: https://www.youtube.com/watch?v=F-E6mFPIOrY
+
+Other ideas including Touring risk prediction and COVID hotspots visualization are from my team
+
 
