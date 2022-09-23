@@ -33,11 +33,8 @@ Running this project on your computer demo : https://youtu.be/7ZJ0uH-1T_g
 # Concepts used in COVID Encyclopedia
 
 # How the app looks like
-![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/tree/master/samples/sample1.png)
-![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/tree/master/samples/sample2.png)
-![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/tree/master/samples/sample3.png)
-![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/tree/master/samples/sample4.png)
-![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/tree/master/samples/sample5.png)
+![alt text](https://github.com/mrsurya1304/COVIDEncyclopedia/blob/master/samples/sample1.png)
+
 
 
 # Demo
