@@ -1,9 +1,10 @@
 # COVIDEncyclopedia
 # Description
-An Android application which gives all information on the COVID19 pandemic. It provides information about the virus, it can also show the whole of India on a map and how
-affected a certain place is. The app is also able to predict the impact of the virus on a near future date and can also find the nearest vaccination centers on a selected 
+- An Android application which gives all information on the COVID19 pandemic.
+- It provides information about the virus, it can also show the whole of India on a map and how affected a certain place is.
+- The app is also able to predict the impact of the virus on a near future date and can also find the nearest vaccination centers on a selected 
 date using your location
-Overall the app intends to make people more aware of latest news on the virus.
+- Overall the app intends to make people more aware of latest news on the virus.
 
 # How to run on your computer
 Ensure you have Android Studio downloaded and set up with an Emulator (AVD) to run the project
