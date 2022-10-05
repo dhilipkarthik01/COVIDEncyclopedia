@@ -22,6 +22,8 @@ Link: https://www.youtube.com/watch?v=x_lvdLil0Fk
 
 Running this project on your computer demo : https://youtu.be/7ZJ0uH-1T_g
 
+You can also download the .apk file from https://drive.google.com/file/d/1watXfOslvewLPFRqGmCLHzPG9DdVMsnC/view?usp=sharing to run the app
+
 # Features of COVID Encyclopedia
 - Display of confirmed, recovered and deceased patients across all states of India
 - Choropleth map visualization of the impact of COVID across India which gives an idea of the COVID hotspots of India
