@@ -62,11 +62,16 @@ public class COVID19_Forecast extends AppCompatActivity {
         date_et.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new DatePickerDialog(COVID19_Forecast.this,date,myCalendar.get(Calendar.YEAR),myCalendar.get(Calendar.MONTH),myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+                DatePickerDialog dpd = new DatePickerDialog(COVID19_Forecast.this,date,myCalendar.get(Calendar.YEAR),myCalendar.get(Calendar.MONTH),myCalendar.get(Calendar.DAY_OF_MONTH));
+                DatePicker dp = dpd.getDatePicker();
+                myCalendar.set(2021,12,28);
+                dp.setMaxDate(myCalendar.getTimeInMillis());
+                myCalendar.set(2020,3,26);
+                dp.setMinDate(myCalendar.getTimeInMillis());
+                dpd.show();
             }
         });
         predict = findViewById(R.id.predict);
-//        Result = findViewById(R.id.result);
         progressBar = findViewById(R.id.progressBar);
 
         predict.setOnClickListener(new View.OnClickListener() {
@@ -123,7 +128,6 @@ public class COVID19_Forecast extends AppCompatActivity {
                                     AlertDialog alert = dialog.create();
                                     alert.setTitle("RISK PREDICTION RESULT");
                                     alert.show();
-//                                    Result.setText("Error! please check!!!");
                                 }
                             }
                         }, new Response.ErrorListener() {
@@ -131,12 +135,9 @@ public class COVID19_Forecast extends AppCompatActivity {
                             @Override
                             public void onErrorResponse(VolleyError error) {
                                 Log.d("response", "received that error");
-
                             }
-
                         });
                 queue.add(jsonObjectRequest);
-
             }
         });
     }
@@ -146,15 +147,3 @@ public class COVID19_Forecast extends AppCompatActivity {
         date_et.setText(dateFormat.format(myCalendar.getTime()));
     }
 }
-//import androidx.appcompat.app.AppCompatActivity;
-//
-//import android.os.Bundle;
-//
-//public class COVID19_Forecast extends AppCompatActivity {
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_covid19_forecast);
-//    }
-//}
