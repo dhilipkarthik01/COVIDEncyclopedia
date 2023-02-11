@@ -20,8 +20,6 @@ class COVID_IndiaTracking : AppCompatActivity() {
     lateinit var statesAdapter:StateAdapter
     lateinit var stateList:List<Statemodel>
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_covid_india_tracking)
